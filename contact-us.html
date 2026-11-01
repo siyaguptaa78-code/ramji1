@@ -22,6 +22,27 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ramji247.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact Us",
+        "item": "https://ramji247.com/contact-us.html"
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -91,11 +112,10 @@
   <!-- Contact Grid -->
   <section class="seo-content-section" style="padding-top: 50px;">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+      <div class="contact-grid-layout">
         <!-- Left: Contact Details Cards -->
         <div>
-          <div
-            style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius-md); padding: 30px; margin-bottom: 25px;">
+          <div class="sidebar-card">
             <div style="display: flex; gap: 15px; margin-bottom: 25px;">
               <div
                 style="width: 50px; height: 50px; background: rgba(37,211,102,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; color: #25d366; flex-shrink: 0;">
@@ -144,18 +164,16 @@
 
           <div
             style="background: rgba(245,179,1,0.06); border: 1px solid rgba(245,179,1,0.25); border-radius: var(--radius-md); padding: 20px;">
-            <h4 style="color: var(--primary); margin-bottom: 8px;"><i class="fas fa-exclamation-triangle"></i> Beware of
-              Fraud Impersonators</h4>
+            <h4 style="color: var(--primary); margin-bottom: 8px;"><i class="fas fa-exclamation-triangle"></i> Security Notice</h4>
             <p style="font-size: 0.84rem; color: var(--text-muted);">
-              Always verify the contact number on RAMJI247.com. We never ask for your bank OTP, ATM PIN, or UPI
-              password. Our customer team will never ask you to transfer funds to unauthorized personal accounts.
+              Always verify the contact number on RAMJI247.com (+91 83607 50829). We never ask for your bank OTP, ATM PIN, or UPI
+              password.
             </p>
           </div>
         </div>
 
         <!-- Right: Inquiry Form -->
-        <div
-          style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius-md); padding: 30px;">
+        <div class="sidebar-card">
           <h3 style="color: #fff; font-size: 1.3rem; margin-bottom: 10px;">Send Us a Message</h3>
           <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 22px;">
             Fill in the form below and we will route your request directly to our WhatsApp helpdesk.
