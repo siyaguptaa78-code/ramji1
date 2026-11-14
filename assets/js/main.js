@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalWrap.innerHTML = `
       <div class="modal-card">
         <button class="modal-close" id="closeDemoModal" aria-label="Close modal">&times;</button>
-        <h3 class="modal-title" id="modalTitleHeading">Get Free Demo ID</h3>
+        <h2 class="modal-title" id="modalTitleHeading">Get Free Demo ID</h2>
         <p class="modal-desc">Test live odds, session markets, and games without any deposit.</p>
         
         <form id="demoRequestForm">
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const phone = form.querySelector('#userPhone')?.value.trim() || '';
       
       const text = encodeURIComponent(`Hello RAMJI247 Team! I would like a Demo ID for ${exchange}. Name: ${name}, WhatsApp: ${phone}. Please share login credentials.`);
-      window.open(`https://wa.me/918360750829?text=${text}`, '_blank');
+      window.open(`https://wa.me/918360750829?text=${text}`, '_blank', 'noopener,noreferrer');
       closeModal();
       form.reset();
     }
@@ -214,5 +214,5 @@ document.addEventListener('DOMContentLoaded', () => {
 function sendWhatsApp(customMsg) {
   const defaultMsg = "Hello RAMJI247! I would like to create a new Online Cricket ID. Please provide available exchange details.";
   const msg = encodeURIComponent(customMsg || defaultMsg);
-  window.open(`https://wa.me/918360750829?text=${msg}`, '_blank');
+  window.open(`https://wa.me/918360750829?text=${msg}`, '_blank', 'noopener,noreferrer');
 }

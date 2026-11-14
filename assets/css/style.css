@@ -674,10 +674,36 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid var(--border-gold-subtle);
 }
 
-.feat-text h4 {
+.feat-text h2,
+.feat-text h3,
+.feat-text h4,
+.feat-text .feat-title {
   font-size: 0.85rem;
   font-weight: 700;
   color: #ffffff;
+  margin: 0;
+  font-family: var(--font-heading);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.faq-question h3 {
+  font-size: 0.96rem;
+  font-weight: 600;
+  color: inherit;
+  margin: 0;
+  line-height: 1.45;
+  font-family: var(--font-main);
 }
 
 .feat-text p {
