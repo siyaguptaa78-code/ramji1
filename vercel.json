@@ -1,9 +1,121 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/about-us.html",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us.html",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/deposit-withdrawal.html",
+      "destination": "/deposit-withdrawal",
+      "permanent": true
+    },
+    {
+      "source": "/exchanges.html",
+      "destination": "/exchanges",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works.html",
+      "destination": "/how-it-works",
+      "permanent": true
+    },
+    {
+      "source": "/ipl-betting-id.html",
+      "destination": "/ipl-betting-id",
+      "permanent": true
+    },
+    {
+      "source": "/online-casino-id.html",
+      "destination": "/online-casino-id",
+      "permanent": true
+    },
+    {
+      "source": "/online-cricket-id.html",
+      "destination": "/online-cricket-id",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/responsible-gaming.html",
+      "destination": "/responsible-gaming",
+      "permanent": true
+    },
+    {
+      "source": "/rules.html",
+      "destination": "/rules",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions.html",
+      "destination": "/terms-and-conditions",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/about-us",
+      "destination": "/about-us.html"
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact-us.html"
+    },
+    {
+      "source": "/deposit-withdrawal",
+      "destination": "/deposit-withdrawal.html"
+    },
+    {
+      "source": "/exchanges",
+      "destination": "/exchanges.html"
+    },
+    {
+      "source": "/how-it-works",
+      "destination": "/how-it-works.html"
+    },
+    {
+      "source": "/ipl-betting-id",
+      "destination": "/ipl-betting-id.html"
+    },
+    {
+      "source": "/online-casino-id",
+      "destination": "/online-casino-id.html"
+    },
+    {
+      "source": "/online-cricket-id",
+      "destination": "/online-cricket-id.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
+    },
+    {
+      "source": "/responsible-gaming",
+      "destination": "/responsible-gaming.html"
+    },
+    {
+      "source": "/rules",
+      "destination": "/rules.html"
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms-and-conditions.html"
     }
   ],
   "headers": [
