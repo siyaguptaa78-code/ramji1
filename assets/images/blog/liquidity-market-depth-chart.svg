@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#0a0f1d"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#e5b842">Exchange Market Depth &amp; Liquidity Ladder</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Active Back and Lay queues with real-time volume depth at competitive odds.</text>
+  
+  <!-- Ladder Header -->
+  <rect x="40" y="95" width="720" height="40" fill="#1e293b" rx="6"/>
+  <text x="140" y="120" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#60a5fa">AVAILABLE BACK (BLUE)</text>
+  <text x="360" y="120" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#ffffff">PRICE / ODDS</text>
+  <text x="540" y="120" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#fb7185">AVAILABLE LAY (PINK)</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="145" width="340" height="45" fill="#1e3a8a" fill-opacity="0.3"/>
+  <text x="80" y="172" font-family="'Poppins', sans-serif" font-weight="700" font-size="15" fill="#60a5fa">₹ 85,400</text>
+  <rect x="340" y="145" width="120" height="45" fill="#1e293b"/>
+  <text x="380" y="173" font-family="'Montserrat', sans-serif" font-weight="800" font-size="17" fill="#ffffff">1.94</text>
+  <rect x="420" y="145" width="340" height="45" fill="#881337" fill-opacity="0.3"/>
+  <text x="620" y="172" font-family="'Poppins', sans-serif" font-weight="700" font-size="15" fill="#fb7185">₹ 1,12,000</text>
+
+  <!-- Row 2 (Best Market) -->
+  <rect x="40" y="195" width="340" height="50" fill="#2563eb" fill-opacity="0.5" stroke="#3b82f6"/>
+  <text x="80" y="226" font-family="'Poppins', sans-serif" font-weight="800" font-size="16" fill="#ffffff">₹ 2,45,000</text>
+  <rect x="340" y="195" width="120" height="50" fill="#0f172a" stroke="#e5b842"/>
+  <text x="378" y="227" font-family="'Montserrat', sans-serif" font-weight="900" font-size="19" fill="#e5b842">1.95</text>
+  <rect x="420" y="195" width="340" height="50" fill="#e11d48" fill-opacity="0.5" stroke="#f43f5e"/>
+  <text x="620" y="226" font-family="'Poppins', sans-serif" font-weight="800" font-size="16" fill="#ffffff">₹ 3,20,500</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="250" width="340" height="45" fill="#1e3a8a" fill-opacity="0.3"/>
+  <text x="80" y="277" font-family="'Poppins', sans-serif" font-weight="700" font-size="15" fill="#60a5fa">₹ 98,200</text>
+  <rect x="340" y="250" width="120" height="45" fill="#1e293b"/>
+  <text x="380" y="278" font-family="'Montserrat', sans-serif" font-weight="800" font-size="17" fill="#ffffff">1.96</text>
+  <rect x="420" y="250" width="340" height="45" fill="#881337" fill-opacity="0.3"/>
+  <text x="620" y="277" font-family="'Poppins', sans-serif" font-weight="700" font-size="15" fill="#fb7185">₹ 75,000</text>
+
+  <!-- Bottom Explanatory -->
+  <rect x="40" y="315" width="720" height="55" rx="8" fill="#111827" stroke="#374151"/>
+  <text x="60" y="348" font-family="'Poppins', sans-serif" font-size="13" fill="#cbd5e1">💡 <tspan font-weight="700" fill="#e5b842">Liquidity Rule:</tspan> Highest volume depth occurs at tight 1-tick spreads (1.94 vs 1.95), ensuring instant match execution.</text>
+</svg>

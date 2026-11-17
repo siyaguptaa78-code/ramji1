@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0d1117"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#161b22" stroke="#30363d"/>
+  <text x="80" y="90" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#e5b842">RAMJI247 SPORT • CRICKET ANALYTICS</text>
+  <text x="80" y="130" font-family="'Montserrat', sans-serif" font-weight="800" font-size="34" fill="#ffffff">5-Day Test Pitch Deterioration &amp; Spin Dynamics</text>
+  <text x="80" y="160" font-family="'Poppins', sans-serif" font-size="16" fill="#8b949e">Tracking soil compaction, moisture loss, crack widening, and bounce consistency across session cycles.</text>
+
+  <!-- Day 1-2 -->
+  <rect x="80" y="200" width="330" height="340" rx="10" fill="#1f2937" stroke="#10b981"/>
+  <rect x="100" y="220" width="140" height="28" rx="6" fill="#10b981"/>
+  <text x="110" y="239" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#ffffff">DAYS 1 &amp; 2: FRESH</text>
+  <text x="100" y="280" font-family="'Poppins', sans-serif" font-weight="700" font-size="16" fill="#ffffff">Seam Movement &amp; True Bounce</text>
+  <text x="100" y="310" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• High sub-surface moisture</text>
+  <text x="100" y="340" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Minimal spin, sharp lateral carry</text>
+  <text x="100" y="370" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Optimal batting during sessions 3 &amp; 4</text>
+  <text x="100" y="420" font-family="'Poppins', sans-serif" font-weight="600" font-size="13" fill="#10b981">Average Par Score: 360–420 runs</text>
+
+  <!-- Day 3 -->
+  <rect x="435" y="200" width="330" height="340" rx="10" fill="#1f2937" stroke="#f59e0b"/>
+  <rect x="455" y="220" width="160" height="28" rx="6" fill="#f59e0b"/>
+  <text x="465" y="239" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#000000">DAY 3: ACCELERATION</text>
+  <text x="455" y="280" font-family="'Poppins', sans-serif" font-weight="700" font-size="16" fill="#ffffff">Footmarks &amp; Variable Pace</text>
+  <text x="455" y="310" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Surface crust begins opening</text>
+  <text x="455" y="340" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Bowlers' rough develops outside off</text>
+  <text x="455" y="370" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Reverse swing emerges as ball scuffs</text>
+  <text x="455" y="420" font-family="'Poppins', sans-serif" font-weight="600" font-size="13" fill="#f59e0b">Turning Point Session: Post-Lunch Day 3</text>
+
+  <!-- Day 4-5 -->
+  <rect x="790" y="200" width="330" height="340" rx="10" fill="#1f2937" stroke="#ef4444"/>
+  <rect x="810" y="220" width="160" height="28" rx="6" fill="#ef4444"/>
+  <text x="820" y="239" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#ffffff">DAYS 4 &amp; 5: ABRASION</text>
+  <text x="810" y="280" font-family="'Poppins', sans-serif" font-weight="700" font-size="16" fill="#ffffff">Extreme Turn &amp; Low Bounce</text>
+  <text x="810" y="310" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Wide fissures &amp; puffing dust</text>
+  <text x="810" y="340" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Unpredictable bounce keeping low</text>
+  <text x="810" y="370" font-family="'Poppins', sans-serif" font-size="14" fill="#9ca3af">• Batting 4th innings: High difficulty</text>
+  <text x="810" y="420" font-family="'Poppins', sans-serif" font-weight="600" font-size="13" fill="#ef4444">Successful 4th Innings Chase: &lt; 210 runs</text>
+</svg>

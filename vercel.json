@@ -66,6 +66,21 @@
       "source": "/terms-and-conditions.html",
       "destination": "/terms-and-conditions",
       "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog-sports-exchange-guide.html",
+      "destination": "/blog/understanding-sports-exchange-vs-traditional-bookmaker",
+      "permanent": true
+    },
+    {
+      "source": "/blog-cricket-pitch-analytics.html",
+      "destination": "/blog/cricket-match-formats-and-pitch-analytics-guide",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -116,6 +131,18 @@
     {
       "source": "/terms-and-conditions",
       "destination": "/terms-and-conditions.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog.html"
+    },
+    {
+      "source": "/blog/understanding-sports-exchange-vs-traditional-bookmaker",
+      "destination": "/blog-sports-exchange-guide.html"
+    },
+    {
+      "source": "/blog/cricket-match-formats-and-pitch-analytics-guide",
+      "destination": "/blog-cricket-pitch-analytics.html"
     }
   ],
   "headers": [
