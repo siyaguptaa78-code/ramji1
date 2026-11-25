@@ -81,6 +81,16 @@
       "source": "/blog-cricket-pitch-analytics.html",
       "destination": "/blog/cricket-match-formats-and-pitch-analytics-guide",
       "permanent": true
+    },
+    {
+      "source": "/blog-champions-league-matchday-5.html",
+      "destination": "/blog/champions-league-matchday-5-fixtures-24-november-2026",
+      "permanent": true
+    },
+    {
+      "source": "/champions-league-matchday-5-fixtures-24-november-2026",
+      "destination": "/blog/champions-league-matchday-5-fixtures-24-november-2026",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -143,6 +153,10 @@
     {
       "source": "/blog/cricket-match-formats-and-pitch-analytics-guide",
       "destination": "/blog-cricket-pitch-analytics.html"
+    },
+    {
+      "source": "/blog/champions-league-matchday-5-fixtures-24-november-2026",
+      "destination": "/blog-champions-league-matchday-5.html"
     }
   ],
   "headers": [
